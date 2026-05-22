@@ -1,0 +1,26 @@
+comando para correr el code
+
+	manim -pql NombreArchivo.py NombreEscena
+
+La p (play) es para lanzarlo. Sin p solo guarda la animación
+La q (quality) determina la calidad
+	l (low) a 15 fps
+	m (mid) a 30 fps
+	h (high) a 30 fps
+La linea --fps 60 lo corre a 60 frames
+
+CAMPOS VECTORIALES 2D
+
+field = ArrowVectorField(
+	lambda p: np.array([p[0], p[1], 0]))
+
+Donde: p = (x, y, z)
+
+--------------------------------
+
+Code básico
+
+from manim import *
+
+class nombre(Scene):
+    def construct(self):

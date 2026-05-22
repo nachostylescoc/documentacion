@@ -1,0 +1,16 @@
+Subir a GitHub
+
+git init
+hacer el add
+hacer el commit
+subir todo a la rama principal con git branch -M master
+poner la ruta con git remote add origin (la ruta)
+setear la url con git remote set-url origin https://github.com/nachostylescoc/NOMBRE-DEL-REPO.git
+hacer el push con git push -u origin master
+
+con esto ya se creo el seteo y para subir nuevos archivos basta con hacer git push
+
+
+HACER PUSH POR PRIMERA VEZ EN UNA PC NUEVA
+
+Al hacer git push -u origin master nos pedirá usuario y contraseña, la contraseña será un token que hay que generar en las settings de GitHub 

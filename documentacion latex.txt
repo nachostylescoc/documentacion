@@ -1,0 +1,125 @@
+Latex
+
+Integrales
+
+integral grande:
+\displaystyle \int
+
+integral doble: \iint
+integral triple: \iiint
+integral cerrada: \oint
+
+paquetes
+
+\usepackage{graphicx} para imagenes
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{margin=2cm}{geometry} márgenes
+\usepackage[spanish]{babel}
+\usepackage{anyfontsize}
+\renewcommand\normalsize{\fontsize{14}{16}\selectfont} para aumentar tamaño de letra
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE]{\rightmark}           para encabezado
+\fancyhead[RO]{\leftmark}   
+\fancyhead[LO,RE]{}   
+
+esint (para integrales cerradas)
+bm (negrita)
+
+sacar la fecha: \date{}
+
+pagina en blanco:
+\newpage
+\thispagestyle{empty}           
+~
+\newpage
+
+
+negrita: \textbf
+
+llaves \{
+
+llaves grandes: $\left\{
+\begin{array}{ll}
+ lol1 \\ lol 2 
+\end{array} 
+ \right.$
+
+caja de texto: bordes cuadrados y sombra
+\begin{tcolorbox}[drop shadow,sharp corners,colback=white]
+blablablá...
+\end{tcolorbox}
+
+caja de texto: bordes cuadrados, fondo a color, sin margenes
+\begin{tcolorbox}[sharp corners,colback=crema, colframe=gray!10,]
+blasnclaksna
+\end{tcolorbox}
+
+
+texto encerrado en un cuadro:
+\fbox{}
+
+texto a la derecha:
+\flssdlcvniasjoc
+
+insertar imagen:
+ \includegraphics{ }
+
+tabla:
+\begin{tabular}{c|c|c|c}
+ &  &  & \\
+\hline
+ &  &  &  \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\end{tabular}
+
+fracción grande: \dfrac{}{}
+
+arreglo centrado:
+\[
+\begin{aligned}
+a &= b \\
+  &= c \\
+  &= d
+\end{aligned}
+\]
+
+sumatoria tamaño grande:
+\sum\limits_{}^{}
+
+matriz: 
+\[
+A = \begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}
+\]
+
+matriz ampliada:
+\begin{array}{rrrr|r}
+a_{11} & a_{12} & \cdots & a_{1n} & b_1\\
+a_{21} & a_{22} & \cdots & a_{2n} & b_2\\
+\vdots \; & \vdots \; & \ddots & \vdots \; & b_3\\
+a_{m1} & a_{m2} & \cdots & a_{mn} & b_n
+\end{array}
+\right)
+\]
+
+determinante de matriz:
+\[
+\begin{vmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{vmatrix}
+\]
+
+\overset{0/0}{=} 1
+
+trayectorias 
+

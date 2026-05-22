@@ -1,0 +1,39 @@
+\documentclass[12pt]{book}
+\date{}
+\title{\rule{\textwidth}{0.4pt} \\[0.4em]
+\textbf{\Huge Apunte} \\[0em]
+\rule{\textwidth}{0.4pt}}
+\author{Ignacio Cordova}
+
+\usepackage[most]{tcolorbox}
+\usepackage[table]{xcolor}
+\definecolor{lavanda}{rgb}{0.827, 0.827, 1}
+\definecolor{crema}{RGB}{251, 221, 173}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[margin=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{anyfontsize}
+\renewcommand\normalsize{\fontsize{14}{16}\selectfont}
+\setlength{\parindent}{0pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE]{\rightmark} 
+\fancyhead[RO]{\leftmark}   
+\fancyhead[LO,RE]{}        
+
+\begin{document}
+\maketitle
+\newpage
+\thispagestyle{empty}
+\newpage
+\tableofcontents
+
+\chapter{}
+
+
+
+
+\end{document}
