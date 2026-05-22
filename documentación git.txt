@@ -13,4 +13,6 @@ con esto ya se creo el seteo y para subir nuevos archivos basta con hacer git pu
 
 HACER PUSH POR PRIMERA VEZ EN UNA PC NUEVA
 
+HTTPS
+
 Al hacer git push -u origin master nos pedirá usuario y contraseña, la contraseña será un token que hay que generar en las settings de GitHub 
