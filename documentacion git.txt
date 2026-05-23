@@ -13,6 +13,10 @@ con esto ya se creo el seteo y para subir nuevos archivos basta con hacer git pu
 
 HACER PUSH POR PRIMERA VEZ EN UNA PC NUEVA
 
-HTTPS
+por HTTPS
 
-Al hacer git push -u origin master nos pedirá usuario y contraseña, la contraseña será un token que hay que generar en las settings de GitHub 
+Al hacer git push -u origin master nos pedirá usuario y contraseña, la contraseña será un token que hay que generar en las settings de GitHub. Sin embargo si lo hacemos asi tal cual siempre que abramos una nueva terminal nos pedirá el token, para dejar el permiso para siempre usamos:
+
+git config --global credential.helper store
+
+hacemos git push, introducimos usuario y token y el permiso quedaría para siempre
