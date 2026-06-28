@@ -1,0 +1,36 @@
+WINDOWS (VSCODE):
+
+1. Instalar las extensiones:
+	
+	C/C++ (de Microsoft)
+	C/C++ Extension pack (de Microsoft)
+
+2. Instalar MSYS2 (compilador g++): desde la powershell poner el code
+
+	winget install -e --id MSYS2.MSYS2
+
+3. Instalar g++ desde MSYS2: abrir MSYS2 MSYS (buscar en el menú inicio) y ejecutar el code
+
+	pacman -S mingw-w64-x86_64-gcc
+
+4. Instalar OpenGL: desde la misma terminal de MSYS2 MSYS ejecutar
+
+	pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew
+
+5. Agregar MinGW al PATH: Abrir PowerShell como administrador y ejecutar
+
+$currentPath = [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine)
+$newPath = "C:\msys64\mingw64\bin;" + $currentPath
+[Environment]::SetEnvironmentVariable("Path", $newPath, [EnvironmentVariableTarget]::Machine)
+
+6. Verificar instalación: Cerrar y abrir VSCode de nuevo y ejecutar desde la terminal de vscode
+
+	cmdg++ --version
+
+Debe mostrar una versión sin errores.
+
+EXTRA: para ejecutar el proyecto del black hole usar en la terminal de vscode
+
+	g++ main.cpp -o main.exe -lfreeglut -lopengl32 -lglu32
+
+y abrir el archivo .exe

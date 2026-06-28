@@ -1,0 +1,5 @@
+CONFIGURACIÓN Y EXTENSIONES VSCODE
+
+Latex workshop.
+Extensión Spanish Language Pack for Visual Studio Code para interfaz en español.
+Alt + z para el salto de linea automatico
