@@ -1,5 +1,13 @@
 Latex
 
+% Fuente tipo máquina clásica
+\usepackage[T1]{fontenc}
+\usepackage{courier}
+\renewcommand{\familydefault}{\ttdefault}
+
+% Sin texto justificado (más realista tipo máquina)
+\raggedright
+
 Integrales
 
 integral grande:
